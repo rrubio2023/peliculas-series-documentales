@@ -1,0 +1,10 @@
+<h1>Series</h1>
+
+<% @series.each do |serie| %>
+  <div>
+    <h3><%= serie.name %></h3>
+    <p><%= serie.synopsis %></p>
+    <p><strong>Director:</strong> <%= serie.director %></p>
+  </div>
+  <hr>
+<% end %>
